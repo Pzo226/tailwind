@@ -1,0 +1,48 @@
+* {
+  padding:0;
+  margin:0;
+  color: #fff;
+}
+.main {
+  /*...Collapsed...*/
+  overflow-y: auto;
+  perspective: 2px; /* <-- This line */
+}
+
+.text-center {
+  text-align: center;
+}
+.paralax{
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.flex {
+  display: flex;
+}
+.place-items-center {
+  place-items: center;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-size-adjust: 100%;
+  .underline {
+  text-decoration-line: underline;
+}
+}
+
+.pimg1 {
+  background-image: url("../../img/bclincy_bitemoji.png");
+}
+.pimg2 {
+  background-image: url("../../images/pexels-daniel.jpg");
+}
+.pimg3 {
+  background-image: url("../../images/pexels-daria.jpg");
+}
+

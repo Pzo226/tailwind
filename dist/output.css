@@ -10,6 +10,31 @@ Document
 /**
 Use a better box model (opinionated).
 */
+.pimg1 {
+  background-image:url('../images/pexels-adrien.jpg');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: fit;
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.pimg2 {
+      background-image:url('../../images/pexels-daniel.jpg');
+      background-repeat: no-repeat, repeat;
+      background-position: center;
+      background-size: fit;
+      max-height: 100vh;
+      max-width: 100%;
+    }
+    .pimg3 {
+      background-image:url('../../images/pexels-daria.jpg');
+      background-repeat: no-repeat, repeat;
+      background-position: center;
+      background-size: fit;
+      max-height: 100vh;
+      max-width: 100%;
+    }
 
 *,
 ::before,
@@ -24890,6 +24915,10 @@ video {
 .text-left {
   text-align: left;
 }
+
+text-center{
+  text-align: center;
+}	
 
 .text-center {
   text-align: center;
